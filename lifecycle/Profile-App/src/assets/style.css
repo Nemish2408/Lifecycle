@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .theme-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .theme-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .profile-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-container.light {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .profile-container.dark {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .loading-text {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .error-text {
+    font-size: 18px;
+    color: red;
+  }
+  
+  .user-card {
+    padding: 10px;
+  }
+  
+  .user-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .error-container {
+    padding: 20px;
+    border: 2px solid red;
+    color: red;
+    background-color: #ffe5e5;
+    margin: 20px;
+  }
+  
